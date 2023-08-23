@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-image: url(desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(182, 181, 178);
+    padding-bottom:0px ;
+    background-attachment: fixed;
+    font-size: 10px;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: orange;
+    opacity: 0.7;
+}
+
+.nav{
+    width: auto;
+}
+
+ul{
+ 
+    margin:20px;
+    text-decoration: none;
+}
+
+ a{
+    text-decoration: none;
+    color: white;
+    margin: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+h1{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: solid bold;
+    margin-left: 17px;
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    filter: grayscale(80%);
+    margin: 16px;
+  opacity: 0.7;
+  border: none;
+    
+}
+
+img:hover{
+    color: none;
+}
+
+li{
+    font-style: bold;
+    font-size: 20px;
+}
+
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    padding-left: 13px;
+    margin-left: 30px;
+}
+
+span{
+    color: orange;
+    background-color: black;
+    box-shadow: rgb(177, 123, 22) 15px 14px 13px;
+    opacity: 0.7;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
