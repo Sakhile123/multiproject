@@ -1,91 +1,94 @@
-*{
+/* Reset default margin and padding for all elements */
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     color: white;
-    background-image: url(desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(182, 181, 178);
-    padding-bottom:0px ;
+
+    background-color: rgb(24, 24, 23);
+    padding-bottom: 0;
     background-attachment: fixed;
     font-size: 10px;
-
 }
 
-header{
+header {
     background-color: black;
-    color: white;
+    color: orange;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    color: orange;
     opacity: 0.7;
 }
 
-.nav{
+.nav {
     width: auto;
 }
 
-ul{
- 
-    margin:20px;
-    text-decoration: none;
+ul {
+    margin: 20px;
+    list-style-type: none; /* Remove default list bullet points */
 }
 
- a{
+a {
     text-decoration: none;
     color: white;
     margin: 13px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    display: inline-block; /* Make the links inline-block for spacing */
 }
 
-a:hover{
+a:hover {
     background-color: white;
     color: black;
 }
-h1{
+
+h1 {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    font-style: solid bold;
-    margin-left: 17px;
+    font-weight: bold; /* Use font-weight to set bold */
     text-align: center;
 }
 
-img{
-    width: 500px;
-    height: 500px;
+img {
+    width: 350px;
+    height: 350px;
     filter: grayscale(80%);
     margin: 16px;
-  opacity: 0.7;
-  border: none;
-    
+    opacity: 0.7;
+    border: none;
 }
 
-img:hover{
-    color: none;
+img:hover {
+    filter: none; /* Remove grayscale filter on hover */
 }
 
-li{
-    font-style: bold;
+li {
+    font-weight: bold;
     font-size: 20px;
 }
 
-p{
-    font-size: 25px;
+.container {
+    padding-left: 13px;
+    margin-left: 250px; /* Adjusted margin */
+    position: relative; /* Use relative positioning for container */
+}
+
+p {
+    font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
+    font-weight: bold;
     padding-left: 13px;
     margin-left: 30px;
 }
 
-span{
+span {
     color: orange;
     background-color: black;
-    box-shadow: rgb(177, 123, 22) 15px 14px 13px;
+    box-shadow: 15px 14px 13px rgb(177, 123, 22);
     opacity: 0.7;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
