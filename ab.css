@@ -20,6 +20,10 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     opacity: 0.7;
+   
+}
+header h1{
+    color: orange;
 }
 
 .nav {
@@ -51,8 +55,8 @@ h1 {
     font-size: 40px;
     font-weight: bold; /* Use font-weight to set bold */
     text-align: center;
-    background-color: black;
-    color:white;
+    color: orange;
+ 
 }
 
 img {
@@ -90,10 +94,12 @@ p {
 span {
     color: orange;
     background-color: black;
-    box-shadow: 15px 14px 13px rgb(177, 123, 22);
+    box-shadow: 12px 12px 12px rgb(177, 123, 22);
     opacity: 0.7;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid black;
+    text-align: fit-content;
 }
 
 
