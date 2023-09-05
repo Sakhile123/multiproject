@@ -24,6 +24,7 @@ header {
 }
 header h1{
     color: orange;
+    background: none;
 }
 
 .nav {
@@ -100,6 +101,12 @@ span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: solid black;
     text-align: fit-content;
+}
+
+button{
+    background-color: black;
+    color: orange;
+    border-radius: 50px;
 }
 
 
